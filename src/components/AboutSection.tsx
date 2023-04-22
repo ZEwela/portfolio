@@ -81,8 +81,8 @@ const AboutSection = () => {
             </div>
 
             <Image
-              className="hidden md:block md:relative md:bottom-1 md:mt-20 md:left-32 md:z-0 "
-              src="/bulb-lighting-svgrepo-com.svg"
+              className="hidden md:block md:relative md:bottom-0 md:mt-20 md:left-32 md:z-0 rounded-full "
+              src="/stockvault-puzzle-in-a-lightbulb-problem-solving-concept178103.jpg"
               alt="bulb"
               width={200}
               height={200}
