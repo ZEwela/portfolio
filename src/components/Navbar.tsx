@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3">
-            <Link to="home">
+            <Link to="home" className="cursor-pointer">
               <div className="md:py-5 md:block">
                 <h2 className="text-2xl font-bold">Ewelina Zawol</h2>
               </div>

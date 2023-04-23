@@ -23,14 +23,14 @@ const HeroSection = () => {
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
-            <span className="text-teal-600 font-semibold">
+            <span className="text-violet-600 font-semibold">
               Junior Fullstack Developer{" "}
             </span>
             based in London.
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-violet-600 rounded shadow hover:bg-violet-700 cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
