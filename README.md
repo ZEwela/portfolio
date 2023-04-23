@@ -1,7 +1,7 @@
 # Personal Portfolio
 
 This is my personal portfolio, built with Next.js, TypeScript, and Tailwind CSS.
-To view page, go [here](https://portfolio-nine-ecru-55.vercel.app/).
+To view page, go [here](https://portfolio-zewela.vercel.app/).
 
 ## Technologies Used
 
