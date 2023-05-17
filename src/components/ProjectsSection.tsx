@@ -6,6 +6,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "Leafy Lane",
+    description:
+      "An e-commerce web application built with Vite, using React, TypeScript, and Express MongoDB/Mongoose at the backend.",
+    image: "/leafy_lane.png",
+    link: "https://leafy-lane.onrender.com/",
+    github: "https://github.com/ZEwela/leafy_lane",
+  },
+  {
     name: "News Site",
     description:
       "This is a news site built with Next.js and TypeScript. It uses the New York Times API to fetch the latest news articles and displays them in a clean and responsive interface.",
