@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Leafy Lane",
     description:
-      "An e-commerce web application built with Vite, using React, TypeScript, and Express MongoDB/Mongoose at the backend.",
+      "This is an e-commerce web application built with Vite. The frontend is built using React and TypeScript, while the backend is built with Express and MongoDB/Mongoose. The application is ready to be run with Docker Compose, making it easy to deploy to various environments.",
     image: "/leafy_lane.png",
     link: "https://leafy-lane.onrender.com/",
     github: "https://github.com/ZEwela/leafy_lane",
