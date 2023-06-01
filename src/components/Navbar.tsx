@@ -8,6 +8,7 @@ import { IoMdMenu, IoMdClose } from "react-icons/io";
 interface NavItem {
   label: string;
   page: string;
+  link?: string;
 }
 
 const NAV_ITEMS: Array<NavItem> = [
@@ -22,6 +23,11 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Projects",
     page: "projects",
+  },
+  {
+    label: "Blog",
+    page: "blog",
+    link: "https://my-blog-git-main-zewela.vercel.app/",
   },
 ];
 const Navbar = () => {
@@ -55,7 +61,11 @@ const Navbar = () => {
           >
             <div className="items-centr justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
-                return (
+                return item.link ? (
+                  <a href={item.link} target="_blank">
+                    {item.label}
+                  </a>
+                ) : (
                   <Link
                     key={idx}
                     to={item.page}
