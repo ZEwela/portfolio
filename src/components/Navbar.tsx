@@ -62,7 +62,14 @@ const Navbar = () => {
             <div className="items-centr justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
                 return item.link ? (
-                  <a href={item.link} target="_blank">
+                  <a
+                    href={item.link}
+                    key={idx}
+                    target="_blank"
+                    className={
+                      "block lg:inline-block next-neutral-900 hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"
+                    }
+                  >
                     {item.label}
                   </a>
                 ) : (
@@ -70,7 +77,7 @@ const Navbar = () => {
                     key={idx}
                     to={item.page}
                     className={
-                      "block lg:inline-block next-neutral-900 hover:text-neutral-500 dark:text-neutral-100"
+                      "block lg:inline-block next-neutral-900 hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"
                     }
                     activeClass="active"
                     spy={true}
