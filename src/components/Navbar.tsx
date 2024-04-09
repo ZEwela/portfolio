@@ -27,7 +27,7 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Blog",
     page: "blog",
-    link: "https://my-blog-git-main-zewela.vercel.app/",
+    link: "https://my-blog-iota-fawn.vercel.app/",
   },
 ];
 const Navbar = () => {

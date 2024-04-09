@@ -6,67 +6,20 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "Leafy Lane",
+    name: "Spokes",
     description:
-      "This is an e-commerce web application built with Vite. The frontend is built using React and TypeScript, while the backend is built with Express and MongoDB/Mongoose. The application is ready to be run with Docker Compose, making it easy to deploy to various environments. While the initial page load may require a bit more time due to its deployment on Render, this presents the perfect opportunity to sit back, relax, and savor a delightful cup of your favorite beverage.",
-    image: "/leafy_lane.png",
-    link: "https://leafy-lane.onrender.com/",
-    github: "https://github.com/ZEwela/leafy_lane",
+      "Team project. Spokes is an app designed for cyclists to connect, match, and communicate with fellow cyclists. Developed using React Native with Expo, the app incorporates Firebase for authentication and chat features. On the backend, we utilise a PostgreSQL database and have built an API with Node.js and Express, enabling scalability for future expansions that may require more complex queries.",
+    image: "/spokes_n.png",
+    link: "https://rejamncspokes.netlify.app/",
+    github: "https://github.com/adamkow/FE-Spokes",
   },
   {
-    name: "News Site",
+    name: "NC News",
     description:
-      "This is a news site built with Next.js and TypeScript. It uses the New York Times API to fetch the latest news articles and displays them in a clean and responsive interface.",
-    image: "/news_site.png",
-    link: "https://news-site-i9pi.vercel.app/",
-    github: "https://github.com/ZEwela/News-Site",
-  },
-  {
-    name: "p5.js Project Soft Character",
-    description:
-      "The goal of the project was to create a simple soft character using p5.js graphics and JavaScript logic.",
-    image: "/soft_Character.png",
-    link: "https://zewela.github.io/p5_soft_Character/",
-    github: "https://github.com/ZEwela/p5_soft_Character",
-  },
-  {
-    name: "p5.js Project ASCII Text Video",
-    description:
-      "The goal of the project was to create a video stream made with ASCII.",
-    image: "/ASCII.png",
-    link: "https://zewela.github.io/ps_ASCII_Text_Video/",
-    github: "https://github.com/ZEwela/ps_ASCII_Text_Video",
-  },
-  {
-    name: "Amazonia",
-    description:
-      "An e-commerce web application built with React, Express, and MongoDB/Mongoose. It allows users to view products, add them to a cart, and checkout using the PayPal API for payment.",
-    image: "/amazonia.png",
-    link: "",
-    github: "https://github.com/ZEwela/amazonia-",
-  },
-  {
-    name: "JAMMMING",
-    description:
-      "Codecademy project which allows to search for songs, create playlists, and save them to Spotify. Deploy with Surge.",
-    image: "/jammming.png",
-    link: "http://ewelina_jammming.surge.sh",
-    github: "https://github.com/ZEwela/jammming",
-  },
-  {
-    name: "Read",
-    description:
-      "This site was created with React and Redux. It uses Reddit API to fetch the latest posts and comments.",
-    image: "/read.png",
-    link: "https://read-react-project.netlify.app/",
-    github: "https://github.com/ZEwela/read",
-  },
-  {
-    name: "My Page",
-    description: "My first personal page created with JavaScript, HTML, SCSS.",
-    image: "/myPage.png",
-    link: "https://zewela.github.io/mypage/",
-    github: "https://github.com/ZEwela/mypage",
+      "The project offers a user-friendly interface for browsing articles, sorting them based on various criteria, and adding comments to selected articles. Hosted on Render, the app is developed using React and Vite. Additionally, the project integrates a backend system constructed with Node.js, Express.js, and PostgreSQL, enabling the implementation of RESTful APIs for user article posting and commenting.",
+    image: "/nc_news.png",
+    link: "https://nc-news-fe-site.netlify.app/",
+    github: "https://github.com/ZEwela/nc-news-fe",
   },
 ];
 

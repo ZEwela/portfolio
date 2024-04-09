@@ -2,10 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
-  {
-    skill: "HTML",
-  },
-  { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "React" },
   { skill: "TypeScript" },
@@ -16,6 +12,11 @@ const skills = [
   { skill: "Github" },
   { skill: "SQL" },
   { skill: "PostgreSQL" },
+  { skill: "React Native" },
+  {
+    skill: "HTML",
+  },
+  { skill: "CSS" },
 ];
 
 const AboutSection = () => {
@@ -33,34 +34,17 @@ const AboutSection = () => {
             </h1>
             <p>
               {" "}
-              I am <span className="font-bold">passionate </span>about
-              programming in Javascript and{" "}
-              <span className="font-bold">eager </span> to learn and grow my
-              skills. My proactive approach to{" "}
-              <span className="font-bold">problem-solving</span>,{" "}
-              <span className="font-bold">attention to detail </span>, and{" "}
-              <span className="font-bold">commitment </span> to process
-              improvement are qualities I bring to every project. I thrive in
-              fast-paced environments and am excited to take on new challenges.
-              I am now seeking a role that will allow me to continue to learn
-              and grow while contributing to a dynamic and collaborative team.
+              I enjoy the problem-solving aspect of programming. I like turning
+              ideas into reality. I also appreciate the satisfaction of passing
+              tests and seeing working features. In my free time, I enjoy
+              reading and cooking vegetables. Being active is important to me; I
+              enjoy swimming and working out to keep my brain happy. I also like
+              lying on the grass or sand and looking at trees and the sky.
             </p>
             <br />
             <p>
-              Through completing various web development courses, including a
-              full-stack engineering course through Codecademy, I have gained
-              experience in HTML, CSS, JavaScript, and React.
-            </p>
-            <br />
-            <p>
-              In my free time, I enjoy reading and cooking veggies. Being active
-              is important to me, and I enjoy swimming and working out to keep
-              my brain happy.
-            </p>
-            <br />
-            <p>
-              Learning is my motivator, and I am always looking for
-              opportunities to further develop my skills.
+              &apos;Not knowing&apos; is my motivator, and I am always looking
+              for opportunities to further develop my skills.
             </p>
           </div>
           <div className="md:w-1/2">
@@ -72,7 +56,7 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 roinded font-semibold"
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
                   >
                     {item.skill}
                   </p>
